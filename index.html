@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Snake Game</title>
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <main>
+    <div class="wrapper">
+        <div class="game-details">
+           <div class="score">Score: 0</div>
+           <div class="high-score">High Score: 0</div>
+        </div>
+        <div class="play-board">
+            <div class ="cells"></div>
+        </div>
+    </div>
+    <section id="instructions">
+        <p id="text">
+            <h2 class>🐍 Instrucciones</h2><br><br>
+            
+            <h3><strong>Objetivo del juego 🎯</strong></h3>
+            <h4>Controla la serpiente y muévela por el tablero para comer la comida. Cada vez que comas, la serpiente crecerá. ¡Intenta conseguir la puntuación más alta posible sin chocar!<h/4></h><br><br>
+
+            <h3><strong>Controles 🎮</strong></h3>
+            <h4>
+            Usa las flechas del teclado para mover la serpiente:<br>
+            ⬆️ Flecha Arriba: Mover hacia arriba<br>
+            ⬇️ Flecha Abajo: Mover hacia abajo<br>
+            ⬅️ Flecha Izquierda: Mover hacia la izquierda<br>
+            ➡️ Flecha Derecha: Mover hacia la derecha<br>
+            <em>Nota: No puedes cambiar de dirección en sentido contrario inmediato.</em><br><br>
+            </h4>
+            
+            <h3><strong>Cómo jugar 🕹️</strong></h3>
+            <h4>La comida aparece aleatoriamente en el tablero. Dirige la serpiente hacia la comida para comértela. Cada vez que comes, ganas un punto y la serpiente se hace más larga. Tu puntuación actual y el récord más alto se muestran en pantalla.</h4><br><br>
+            
+            <h3><strong>Fin del juego ☠️</strong></h3>
+            <h4>El juego termina si la serpiente se sale del tablero o si choca contra sí misma. Cuando esto ocurre, verás un mensaje de <strong>¡Game Over!</strong> y el juego se reiniciará automáticamente.</h4><br><br>
+            
+            <h3><strong>Puntuación 🏆</strong></h3>
+            <h4>Puntos por comida: 1 punto. 🏅 El récord más alto se guarda en tu navegador, incluso si cierras la página.</h4>
+        </p> 
+    </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

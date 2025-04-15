@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-image:url("photo-1516528387618-afa90b13e000.jpg");
+    background-size: cover;
+}
+h1{
+    font-family:"Trade Winds";
+    color: #FFA725;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 6em;
+    -webkit-text-stroke-width: .6px;
+    -webkit-text-stroke-color:#1e3029;
+}
+body main{
+    display:flex;
+    align-items:center;
+    justify-content: right;
+    min-height: 70vh;
+}
+.wrapper{
+    width: 65vmin;
+    height: 70vmin;
+    display:flex;
+    overflow: hidden;
+    flex-direction: column;
+    background: #6A9C89;
+    border-radius: 10px;
+    margin: 5em;
+}
+main #instructions{
+    width: 50%;
+    margin-right:5em ;
+    background-color: #fff5e4cc;
+    border-radius: 20px;
+    padding: 30px;
+}
+h2{
+    color: #1e3029;
+    text-align: center;
+    font-family: "Trade winds";
+    font-size: 30px;
+}
+h3 strong{
+    color: #1e3029;
+    font-family: "Trade winds";
+}
+h4{
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.score{
+    color: #FFF5E4;
+    font-family: "Trade winds";
+}
+.high-score{
+    color: #FFF5E4;
+    font-family: "Trade winds";
+}
+.game-details{
+    color: #FFF5E4;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px 27px;
+    display:flex;
+    justify-content: space-between;
+}
+.play-board{
+    width: 100%;
+    height: 100%;
+    background:#FFF5E4;
+    display: grid;
+    grid-template: repeat(30, 1fr) / repeat(30,1fr);
+}
+.play-board .food{
+    background: #FFA725;
+}
+.play-board .head{
+    background: #6A9C89 ;
+}
