@@ -7,12 +7,12 @@
 body{
     background-image:url("photo-1516528387618-afa90b13e000.jpg");
     background-size: cover;
+    overflow-y: hidden;
 }
 h1{
     font-family:"Trade Winds";
     color: #FFA725;
     text-align: center;
-    margin-top: 1%;
     font-size: 6em;
     -webkit-text-stroke-width: .6px;
     -webkit-text-stroke-color:#1e3029;
